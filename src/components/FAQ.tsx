@@ -30,25 +30,25 @@ export default function FAQ() {
   };
 
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="py-2">
       <div className="container-wrapper">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-16">
+        <h2 className="text-base md:text-xl font-bold text-gray-900 mb-5">
           Frequently Asked Questions
         </h2>
 
-        <div className="max-w-4xl mx-auto space-y-4">
+        <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
+              className="bg-white rounded-sm overflow-hidden"
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-8 py-5 flex items-center justify-between text-left hover:bg-gray-50 transition-colors"
+                className="w-full px-4 py-2 flex items-center justify-between text-left bg-gray-100 transition-colors"
               >
-                <span className="font-bold text-gray-900 pr-4 text-lg">{faq.question}</span>
+                <span className="font-bold text-gray-900 pr-4 text-base">{faq.question}</span>
                 <svg
-                  className={`w-6 h-6 text-gray-500 transition-transform flex-shrink-0 ${
+                  className={`w-6 h-6 text-gray-500 transition-transform shrink-0 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -59,8 +59,8 @@ export default function FAQ() {
                 </svg>
               </button>
               {openIndex === index && (
-                <div className="px-8 pb-6">
-                  <p className="text-gray-600 leading-relaxed text-base">{faq.answer}</p>
+                <div className="px-4 py-3">
+                  <p className="text-gray-600 leading-relaxed text-sm">{faq.answer}</p>
                 </div>
               )}
             </div>

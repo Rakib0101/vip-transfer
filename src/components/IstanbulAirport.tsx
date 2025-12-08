@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function IstanbulAirport() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white pb-12">
       <div className="container-wrapper">
-        <div className="max-w-4xl mx-auto space-y-12">
+        <div className="space-y-12">
           {/* Welcome Section */}
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Welcome to Istanbul!</h2>
+            <h2 className="text-base md:text-xl font-bold text-gray-900 mb-2">Welcome to Istanbul!</h2>
             <p className="text-gray-600 leading-relaxed mb-4 text-base">
-              Istanbul Airport (IST) serves as a gateway to Turkey's rich culture and commerce. 
+              Istanbul Airport (IST) serves as a gateway to Turkey&apos;s rich culture and commerce. 
               Book a reliable transfer to start your journey smoothly. Popular destinations include 
               Taksim Square, Sultanahmet, Besiktas, and Kadikoy. Avoid the stress of public transport 
               and long taxi queues by booking your airport drop-off transfer in advance.
@@ -38,7 +38,7 @@ export default function IstanbulAirport() {
 
             <p className="text-gray-600 leading-relaxed text-base">
               All vehicles are air-conditioned, fully licensed, and operated by experienced English-speaking 
-              drivers who know the city's routes and traffic patterns. Your safe, comfortable journey is our priority.
+              drivers who know the city&apos;s routes and traffic patterns. Your safe, comfortable journey is our priority.
             </p>
           </div>
         </div>
