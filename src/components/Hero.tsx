@@ -11,16 +11,16 @@ export default function Hero() {
   return (
     <section className="relative min-h-[700px] flex items-center bg-gradient-to-br from-green-900 via-green-800 to-green-700">
       {/* Background Image Overlay */}
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMEgxOTIwVjgwMEgwVjB6IiBmaWxsPSIjMDY1ZjM0Ii8+PHBhdGggZD0iTTAgNDAwTDE5MjAgNTAwTDAgNjAwVjQwMHoiIGZpbGw9IiMwODc4NDUiIG9wYWNpdHk9IjAuNCIvPjwvc3ZnPg==')] bg-cover bg-center opacity-40"></div>
+      <div className="absolute inset-0 bg-[url('/images/hero-banner.jpg')] bg-cover bg-center opacity-100"></div>
       
       <div className="container-wrapper py-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           {/* Left Content */}
           <div className="text-white space-y-6">
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+            <h1 className="text-5xl md:text-4xl font-bold leading-tight">
               Luxury Airport Transfers<br />Chauffeur Services
             </h1>
-            <p className="text-lg md:text-xl text-gray-100 leading-relaxed max-w-xl">
+            <p className="text-lg md:text-base text-gray-100 leading-relaxed max-w-xl">
               Experience the perfect blend of comfort, style, and reliability with VIPTransfer.com. 
               From private airport transfers to chauffeur driven journeys, we deliver seamless travel 
               tailored to your needs. Arrive on time, every time and always in style.
