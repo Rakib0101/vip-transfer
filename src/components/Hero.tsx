@@ -35,7 +35,7 @@ export default function Hero() {
                 onClick={() => setActiveTab('transfer')}
                 className={`px-6 py-3 font-semibold text-sm transition-colors relative ${
                   activeTab === 'transfer'
-                    ? 'text-green-600'
+                    ? 'text-green-600 bg-green-50 '
                     : 'text-gray-500 hover:text-gray-700'
                 }`}
               >
